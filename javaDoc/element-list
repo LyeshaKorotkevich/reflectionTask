@@ -1,0 +1,17 @@
+ru.clevertec
+ru.clevertec.aop
+ru.clevertec.aop.annotation
+ru.clevertec.cache
+ru.clevertec.cache.impl
+ru.clevertec.dao
+ru.clevertec.dao.impl
+ru.clevertec.db
+ru.clevertec.dto
+ru.clevertec.entity
+ru.clevertec.exception
+ru.clevertec.mapper
+ru.clevertec.service
+ru.clevertec.service.impl
+ru.clevertec.util
+ru.clevertec.validator
+ru.clevertec.validator.annotation

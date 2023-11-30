@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c28f922b-fd4b-4966-a120-73eb5c43e1fa" name="Changes" comment="" />
+    <list default="true" id="c28f922b-fd4b-4966-a120-73eb5c43e1fa" name="Changes" comment="feat: add javadoc">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/cache/factory/CacheFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/cache/factory/CacheFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/view/PdfPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/view/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fonts/arial.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/clevertec/dao/impl/PlayerDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/clevertec/mapper/impl/PlayerMapperImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/clevertec/service/impl/PlayerServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/clevertec/validator/PlayerValidatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/clevertec/view/PdfPrinterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/util/PlayerTestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/clevertec/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/clevertec/aop/PlayerProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/aop/PlayerProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/clevertec/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/clevertec/service/impl/PlayerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/service/impl/PlayerServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,12 +33,84 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/task8" />
+                    <option name="lastUsedInstant" value="1700845196" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/tests" />
+                    <option name="lastUsedInstant" value="1700426374" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/service" />
+                    <option name="lastUsedInstant" value="1700421779" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/db" />
+                    <option name="lastUsedInstant" value="1700406044" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/aop" />
+                    <option name="lastUsedInstant" value="1700143211" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2Y8NgLk7ZJyv4swX3wkgZloMgvC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,10 +122,168 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "feature/task8",
+    "last_opened_file_path": "/Users/leha/Desktop/clevertec/reflectionTask/src/main/resources/fonts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/fonts" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/javaDoc" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ru.clevertec.validator" />
+      <recent name="ru.clevertec.service.impl" />
+      <recent name="ru.clevertec.dao.impl" />
+      <recent name="ru.clevertec.view" />
+      <recent name="ru.clevertec.cache.impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.PlayerServiceImplTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.clevertec.Main" />
+      <module name="reflectionTask.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.clevertec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PdfPrinterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.clevertec.view.PdfPrinterTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PdfPrinterTest.printShouldInvokeService" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.clevertec.view.PdfPrinterTest.printShouldInvokeService&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PdfPrinterTest.testPrintGeneratesPdfWithPlayers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.clevertec.view.PdfPrinterTest.testPrintGeneratesPdfWithPlayers&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="PlayerServiceImplTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ru.clevertec.service.impl.PlayerServiceImplTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.PlayerServiceImplTest" />
+        <item itemvalue="Gradle.PdfPrinterTest.testPrintGeneratesPdfWithPlayers" />
+        <item itemvalue="Gradle.PdfPrinterTest" />
+        <item itemvalue="Gradle.PdfPrinterTest.printShouldInvokeService" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,8 +292,138 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699903366230</updated>
-      <workItem from="1699903367316" duration="4000" />
+      <workItem from="1699903367316" duration="26343000" />
+      <workItem from="1700204963048" duration="7006000" />
+      <workItem from="1700820805820" duration="8343000" />
+      <workItem from="1701096561005" duration="26039000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: add .gitignore">
+      <option name="closed" value="true" />
+      <created>1699903757489</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699903757489</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix: update .gitignore">
+      <option name="closed" value="true" />
+      <created>1699903890215</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699903890215</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: init project">
+      <option name="closed" value="true" />
+      <created>1699903940793</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699903940793</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: java version">
+      <option name="closed" value="true" />
+      <created>1699904171945</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699904171945</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: add entity">
+      <option name="closed" value="true" />
+      <created>1699907388246</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699907388246</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: add LRUCache">
+      <option name="closed" value="true" />
+      <created>1699993197950</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699993197952</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: add LFUCache">
+      <option name="closed" value="true" />
+      <created>1700083993434</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1700083993434</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: add dto">
+      <option name="closed" value="true" />
+      <created>1700084738364</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700084738370</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: add mapping">
+      <option name="closed" value="true" />
+      <created>1700085218752</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700085218752</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: add YamlReader">
+      <option name="closed" value="true" />
+      <created>1700086298333</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1700086298333</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: add service">
+      <option name="closed" value="true" />
+      <created>1700425749794</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700425749796</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: add tests">
+      <option name="closed" value="true" />
+      <created>1700437870202</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1700437870218</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: add javadoc">
+      <option name="closed" value="true" />
+      <created>1700440259522</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1700440259522</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: add .gitignore" />
+    <MESSAGE value="fix: update .gitignore" />
+    <MESSAGE value="feat: init project" />
+    <MESSAGE value="feat: java version" />
+    <MESSAGE value="feat: add entity" />
+    <MESSAGE value="feat: add LRUCache" />
+    <MESSAGE value="feat: add LFUCache" />
+    <MESSAGE value="feat: add dto" />
+    <MESSAGE value="feat: add mapping" />
+    <MESSAGE value="feat: add YamlReader" />
+    <MESSAGE value="feat: add service" />
+    <MESSAGE value="feat: add tests" />
+    <MESSAGE value="feat: add javadoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add javadoc" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/reflectionTask$Tests_in__reflectionTask_test_.ic" NAME="Tests in 'reflectionTask.test' Coverage Results" MODIFIED="1701376768409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
